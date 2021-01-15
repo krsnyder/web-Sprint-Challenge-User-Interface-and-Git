@@ -58,6 +58,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
+    margin-top: 8px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -107,6 +108,11 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container-about {
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -134,7 +140,42 @@ p {
     justify-content: center;
 }
 
-/* Here is where I'll color the boxes */
+/* Card styling */
+
+#card-parent {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px 0px;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: auto;
+}
+
+.card {
+    width: 40%;
+    padding-bottom: 20px;
+    margin: 10px;
+    border-bottom: 1px dashed black;
+    margin: 20px auto;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    width: 90%;
+    margin: 2% 0; 
+}
+
+.card-p {
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline;
+}
+
+/* Adding color to the boxes */
 
 #box-1 {
     background-color: teal;
