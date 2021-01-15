@@ -123,7 +123,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -132,6 +132,48 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Here is where I'll color the boxes */
+
+#box-1 {
+    background-color: teal;
+}
+
+#box-2 {
+    background-color: gold;
+}
+
+#box-3 {
+    background-color: cadetblue;
+}
+
+#box-4 {
+    background-color: coral;
+}
+
+#box-5 {
+    background-color: crimson;
+}
+
+#box-6 {
+    background-color: forestgreen;
+}
+
+#box-7 {
+    background-color: darkorchid;
+}
+
+#box-8 {
+    background-color: hotpink;
+}
+
+#box-9 {
+    background-color: indigo;
+}
+
+#box-10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
