@@ -71,6 +71,21 @@ p {
     margin: 0 auto;
 }
 
+/* Beginning CSS For Navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+/* CSS For Header Image */
+
+#header {
+    overflow: hidden;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
