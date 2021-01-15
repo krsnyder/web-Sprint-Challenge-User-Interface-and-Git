@@ -58,6 +58,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
+    margin-top: 8px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -71,6 +72,29 @@ p {
     margin: 0 auto;
 }
 
+/* Beginning CSS For Navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+/* CSS For Header Image */
+
+#header {
+    overflow: hidden;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -81,6 +105,11 @@ p {
 
 .top-content .text-container {
     width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.top-content .text-container-about {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -101,7 +130,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +139,88 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Card styling */
+/* I've used Flexbox here to neatly organize the cards.
+I used flexbox because each card contains 4  */
+
+#card-parent {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px 0px;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-bottom: 20px;
+    margin: 10px;
+    border-bottom: 1px dashed black;
+    margin: 20px auto;
+    flex-basis: auto;
+    flex: 1 .5 auto;
+}
+
+.card img {
+    width: 90%;
+}
+
+.card p {
+    width: 90%;
+    margin: 2% 0;
+}
+
+.card-p {
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/* Adding color to the boxes */
+
+#box-1 {
+    background-color: teal;
+}
+
+#box-2 {
+    background-color: gold;
+}
+
+#box-3 {
+    background-color: cadetblue;
+}
+
+#box-4 {
+    background-color: coral;
+}
+
+#box-5 {
+    background-color: crimson;
+}
+
+#box-6 {
+    background-color: forestgreen;
+}
+
+#box-7 {
+    background-color: darkorchid;
+}
+
+#box-8 {
+    background-color: hotpink;
+}
+
+#box-9 {
+    background-color: indigo;
+}
+
+#box-10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
