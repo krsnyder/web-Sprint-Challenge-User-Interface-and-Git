@@ -90,8 +90,9 @@ p {
 
 #header {
     overflow: hidden;
-    /* height: 300px; */
     padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .top-content {
@@ -141,6 +142,8 @@ p {
 }
 
 /* Card styling */
+/* I've used Flexbox here to neatly organize the cards.
+I used flexbox because each card contains 4  */
 
 #card-parent {
     display: flex;
@@ -148,31 +151,34 @@ p {
     margin: 10px 0px;
     justify-content: space-around;
     box-sizing: border-box;
-    width: auto;
+    width: 100%;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     width: 40%;
     padding-bottom: 20px;
     margin: 10px;
     border-bottom: 1px dashed black;
     margin: 20px auto;
+    flex-basis: auto;
+    flex: 1 .5 auto;
 }
 
 .card img {
-    width: 100%;
+    width: 90%;
 }
 
 .card p {
     width: 90%;
-    margin: 2% 0; 
+    margin: 2% 0;
 }
 
 .card-p {
     padding: 5px 10px;
     border: 2px solid black;
     border-radius: 5px;
-    display: inline;
 }
 
 /* Adding color to the boxes */
